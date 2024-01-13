@@ -14,6 +14,16 @@ button[type="button"]{
     color: white;
 }
 .nav-logo{
+    color: #000;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        text-decoration: none;
+}
+.nav-logo-first-part{
     color: var(--accent-color);
         font-family: Raleway;
         font-size: 26px;
@@ -30,15 +40,17 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+text-decoration: none;
 }
 .contact-link{
-    color: var(--footer-contacts-color);
+    color: var(--main-text-color);
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+        text-decoration: none;
 }
 .gallery-header{
     color: #FFF;
@@ -56,6 +68,8 @@ letter-spacing: 0.28px;
 }
 .gallery-button{
     background-color: var(--accent-color);
+    border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
         text-align: center;
         font-family: Roboto;
@@ -64,6 +78,7 @@ letter-spacing: 0.28px;
         font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.96px;
+        
 }
 .solutions-name{
     color: var(--titles-color);
@@ -93,6 +108,9 @@ letter-spacing: 0.28px;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 1.08px;
+}
+.team-container{
+    background-color: var(--team-background-color);
 }
 .team-header{
     color: var(--titles-color);
@@ -124,6 +142,19 @@ letter-spacing: 0.28px;
         line-height: normal;
         letter-spacing: 0.48px;
 }
+.customers-header{
+    color: var(--titles-color);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+}
+.footer{
+    background-color: var(--section-background-color);
+}
 .footer-logo{
     color: #FFF;
         font-family: Raleway;
@@ -132,6 +163,17 @@ letter-spacing: 0.28px;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.78px;
+        text-decoration: none;
+}
+.footer-logo-first-part{
+    color: var(--accent-color);
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        text-decoration: none;
 }
 .footer-address{
     color: var(--footer-contacts-color);
@@ -153,3 +195,50 @@ letter-spacing: 0.28px;
         line-height: 30px;
         letter-spacing: 0.96px;
     }
+    .subscribtion-header{
+        color: #FFF;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.42px;
+            text-transform: uppercase;
+    }
+
+/* Now I am writing Portfolio Style */
+.choice-button{
+    color: var(--titles-color);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.48px;
+}
+.varieties-link{
+    text-decoration: none;
+}
+ .varieties-name{
+    color: var(--titles-color);
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        /* 200% */
+        letter-spacing: 1.08px;
+       
+ }
+ .varieties-description{
+    color: var(--main-text-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 0.48px;
+      
+ }
