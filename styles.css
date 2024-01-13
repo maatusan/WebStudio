@@ -6,14 +6,12 @@
 --footer-contacts-color:rgba(255, 255, 255, 0.60);
 --team-background-color:#F5F4FA;
 }
-a:hover{
-    color: #2196F3;
+.gallery,.varieties-name,.subscribtion-header,.subscribtion-button{
+font-family: Roboto;
+font-weight: 700;
+font-style: normal;
 }
-button[type="button"]{
-    background-color:#2196F3 ;
-    color: white;
-}
-.nav-logo{
+.nav-logo,.nav-logo-first-part,.footer-logo,.footer-logo-first-part{
     color: #000;
         font-family: Raleway;
         font-size: 26px;
@@ -25,14 +23,12 @@ button[type="button"]{
 }
 .nav-logo-first-part{
     color: var(--accent-color);
-        font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.78px;
+    
 }
-.nav-link{
+.nav-link:hover{
+    color: var(--accent-color);
+}
+.nav-link,.contact-link,.team-name,.choice-button{
     color: var(--titles-color);
 font-family: Roboto;
 font-size: 14px;
@@ -42,15 +38,11 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 }
+.contact-link:hover{
+    color: var(--accent-color);
+}
 .contact-link{
     color: var(--main-text-color);
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.28px;
-        text-decoration: none;
 }
 .gallery-header{
     color: #FFF;
@@ -72,83 +64,57 @@ text-decoration: none;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.96px;
         
 }
 .solutions-name{
     color: var(--titles-color);
-        font-family: Roboto;
         font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
 }
+.solutions-description,.team-description,.footer-address, .varieties-description{
+    font-family: Roboto;
+    font-style: normal;
+        font-weight: 400;
+}
 .solutions-description{
     color: var(--main-text-color);
-        font-family: Roboto;
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.42px;
 }
-.doings-header{
+.doings-header,.team-header{
     color: var(--titles-color);
         text-align: center;
-        font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
         line-height: normal;
         letter-spacing: 1.08px;
 }
 .team-container{
     background-color: var(--team-background-color);
 }
-.team-header{
-    color: var(--titles-color);
-        text-align: center;
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.08px;
-}
 .team-name{
     color: var(--titles-color);
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
         line-height: normal;
         letter-spacing: 0.48px;
 }
 .team-description{
     color: var(--main-text-color);
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: normal;
         letter-spacing: 0.48px;
 }
 .customers-header{
     color: var(--titles-color);
         text-align: center;
-        font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
         line-height: normal;
         letter-spacing: 1.08px;
 }
@@ -157,30 +123,15 @@ text-decoration: none;
 }
 .footer-logo{
     color: #FFF;
-        font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.78px;
-        text-decoration: none;
+    
 }
 .footer-logo-first-part{
     color: var(--accent-color);
-        font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.78px;
-        text-decoration: none;
+       
 }
 .footer-address{
-    color: var(--footer-contacts-color);
-        font-family: Roboto;
+    color: #FFF;
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.42px;
 }
@@ -188,32 +139,28 @@ text-decoration: none;
     background-color: var(--accent-color);
         color: #FFF;
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.96px;
     }
     .subscribtion-header{
         color: #FFF;
-            font-family: Roboto;
             font-size: 14px;
-            font-style: normal;
-            font-weight: 700;
             line-height: normal;
             letter-spacing: 0.42px;
             text-transform: uppercase;
     }
 
 /* Now I am writing Portfolio Style */
+.choice-button:hover{
+    color: #FFF;
+    background-color: var(--accent-color);
+}
 .choice-button{
     color: var(--titles-color);
+    background-color: var(--team-background-color);
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 26px;
         letter-spacing: 0.48px;
 }
@@ -222,10 +169,7 @@ text-decoration: none;
 }
  .varieties-name{
     color: var(--titles-color);
-        font-family: Roboto;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 36px;
         /* 200% */
         letter-spacing: 1.08px;
@@ -233,10 +177,7 @@ text-decoration: none;
  }
  .varieties-description{
     color: var(--main-text-color);
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 30px;
         /* 187.5% */
         letter-spacing: 0.48px;
