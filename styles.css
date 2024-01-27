@@ -6,6 +6,19 @@
 --footer-contacts-color:rgba(255, 255, 255, 0.60);
 --team-background-color:#F5F4FA;
 }
+.solutions-container{
+    padding-top: 94px;
+    width: 1200px;
+    padding-bottom: 94px;
+}
+.doings-container{
+     width: 1200px;
+     padding-bottom: 188px;
+}
+.team-container{
+    width: 1200px;
+    padding-bottom: 94px;
+}
 .gallery,.varieties-name,.subscribtion-header,.subscribtion-button{
 font-family: Roboto;
 font-weight: 700;
