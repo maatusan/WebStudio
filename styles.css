@@ -6,18 +6,23 @@
 --footer-contacts-color:rgba(255, 255, 255, 0.60);
 --team-background-color:#F5F4FA;
 }
-.solutions-container{
-    padding-top: 94px;
-    width: 1200px;
-    padding-bottom: 94px;
+.container{
+   width: 1600px;
+    padding-left: 200px;
+    padding-right:200px;
+    margin: 0 auto;
 }
-.doings-container{
-     width: 1200px;
-     padding-bottom: 188px;
+.solutions-container {
+  padding: 15px 94px;
+    
 }
-.team-container{
-    width: 1200px;
-    padding-bottom: 94px;
+
+.doings-container {
+  padding: 15px 94px;
+}
+
+.team-container {
+  padding: 15px 94px;
 }
 .gallery,.varieties-name,.subscribtion-header,.subscribtion-button{
 font-family: Roboto;
