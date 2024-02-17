@@ -41,6 +41,69 @@ font-style: normal;
         letter-spacing: 0.78px;
         text-decoration: none;
 }
+/*Flex-box homework is down here*/
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.nav-list{
+    list-style: none;
+        display: flex;
+        
+}
+.contact-list{
+list-style: none;
+    display: flex;
+}
+.gallery-button{
+    display: flex;
+justify-content: center;
+}
+.solutions-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.doings-header{
+    display: flex;
+    justify-content: center;
+}
+.doings-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+}
+.team-header{
+    display: flex;
+    justify-content: center;
+}
+.team-list{
+list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.customers-header{
+    display: flex;
+    justify-content: center;
+}
+.customers-list{
+list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+  
+
 .nav-logo-first-part{
     color: var(--accent-color);
     
@@ -78,6 +141,10 @@ text-decoration: none;
 .gallery-container{
     background-color: var(--section-background-color);
 }
+.gallery-image{
+    width: 1600px;
+        height: 600px;
+}
 .gallery-button{
     background-color: var(--accent-color);
     border-radius: 4px;
@@ -87,6 +154,7 @@ text-decoration: none;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.96px;
+
         
 }
 .solutions-name{
@@ -131,6 +199,10 @@ text-decoration: none;
         line-height: normal;
         letter-spacing: 0.48px;
 }
+.team-image{
+    width: 270px;
+        height: 260px;
+}
 .customers-header{
     color: var(--titles-color);
         text-align: center;
@@ -140,6 +212,17 @@ text-decoration: none;
 }
 .footer{
     background-color: var(--section-background-color);
+}
+.footer-contact-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-contact-link {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.footer-contact-list{
+    list-style: none;
 }
 .footer-logo{
     color: #FFF;
