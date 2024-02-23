@@ -43,23 +43,45 @@ font-style: normal;
 }
 /*Flex-box homework is down here*/
 .nav-header{
-    display: flex;
+display: flex;
     flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
+    align-items: baseline
+    
 }
+.header-nav-div{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-decoration: none;
+    display: flex;
+     
+       
+}
+   
 .nav-list{
     list-style: none;
-        display: flex;
+    display: flex;
+        padding-left: 93px;
+        padding-right: 320px;
+        gap: 61px;
+        justify-content:space-evenly;
+     
+      
         
 }
 .contact-list{
 list-style: none;
     display: flex;
+       justify-content: space-between;
+       gap: 30px;
+
+     
+     
 }
 .gallery-button{
-    display: flex;
-justify-content: center;
+    display: block;
+margin: 0 auto;
+text-align: center;
+
 }
 .solutions-list{
     list-style: none;
