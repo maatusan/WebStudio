@@ -25,7 +25,19 @@
 .customers-container{
     padding-bottom: 94px;
 }
-
+.gallery-container{
+    background-image: url(./Images/Img.jpg);
+width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
+   justify-content: center;
+}
+.gallery-header{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+    padding-right: 452px;
+}
 .gallery,.varieties-name,.subscribtion-header,.subscribtion-button{
 font-family: Roboto;
 font-weight: 700;
@@ -81,6 +93,7 @@ list-style: none;
     display: block;
 margin: 0 auto;
 text-align: center;
+
 
 }
 .solutions-list{
@@ -172,7 +185,7 @@ text-decoration: none;
     border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
-        text-align: center;
+        display: block;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.96px;
@@ -263,7 +276,7 @@ text-decoration: none;
 .subscribtion-button{
     background-color: var(--accent-color);
         color: #FFF;
-        text-align: center;
+        display: block;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.96px;
@@ -289,9 +302,28 @@ text-decoration: none;
         line-height: 26px;
         letter-spacing: 0.48px;
 }
+.choice-list{
+    list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+}
 .varieties-link{
     text-decoration: none;
+}.varieties-list{
+    list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+        gap: 30px;
 }
+
+        
+    
+
  .varieties-name{
     color: var(--titles-color);
         font-size: 18px;
