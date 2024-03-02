@@ -301,6 +301,13 @@ text-decoration: none;
     }
 
 /* Now I am writing Portfolio Style */
+.portfolio-gallery-container{
+    width: 1600px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+
+}
 .choice-button:hover{
     color: #FFF;
     background-color: var(--accent-color);
