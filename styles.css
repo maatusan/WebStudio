@@ -6,23 +6,34 @@
 --footer-contacts-color:rgba(255, 255, 255, 0.60);
 --team-background-color:#F5F4FA;
 }
-.container{
-   width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+
 .solutions-container{
+    width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .doings-container{
+    width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
     padding-bottom: 94px;
 }
 .team-container{
+    width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
     padding-bottom: 94px;
 }
 .customers-container{
+    width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
     padding-bottom: 94px;
 }
 .gallery-container{
