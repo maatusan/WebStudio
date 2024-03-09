@@ -283,6 +283,7 @@ text-decoration: none;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.42px;
+        
 }
 .subscribtion-button{
     background-color: var(--accent-color);
@@ -299,10 +300,28 @@ text-decoration: none;
             letter-spacing: 0.42px;
             text-transform: uppercase;
     }
+    .icon-header{
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+      
+    }
+    .icon-list{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
 
 /* Now I am writing Portfolio Style */
 .portfolio-gallery-container{
-    width: 1600px;
+    width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -326,6 +345,11 @@ text-decoration: none;
         flex-direction: row;
         justify-content: center;
         align-items: baseline;
+        padding: 0;
+
+}
+li{
+    flex-basis: calc((100%-60px)/3);
 }
 .varieties-link{
     text-decoration: none;
@@ -334,7 +358,7 @@ text-decoration: none;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+        padding: 0;
         flex-wrap: wrap;
         gap: 30px;
 }
