@@ -38,7 +38,7 @@
 }
 .gallery-container{
     background-image: url(./Images/Img.jpg);
-width: 1600px;
+    
     height: 600px;
     flex-shrink: 0;
    justify-content: center;
