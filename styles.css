@@ -317,6 +317,18 @@ text-decoration: none;
         flex-direction: row;
         justify-content: center;
     }
+.solutions-item-1::before{
+    content: url(./Images/1.png);   
+}
+.solutions-item-2::before{
+    content: url(./Images/2.png);
+}
+.solutions-item-3::before{
+    content: url(./Images/3.png);
+}
+.solutions-item-4::before{
+    content: url(./Images/4.png);
+}
  
 
 /* Now I am writing Portfolio Style */
